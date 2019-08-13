@@ -15,11 +15,11 @@ To provide way of means to the masses for booking/reserving seats/passes for var
 Giving various organizations a platform to showcase their events and thereby increase their revenue as well as create a name for themselves within the masses thereby gaining popularity as well.
 
 ## Technology/Framework used :
-Android Studio
+* Android Studio
 
-Java
+* Java
 
-Firebase
+* Firebase
 
 ## Features :
 Category wise display of events.
@@ -29,3 +29,5 @@ User can bookmark events.
 User can do bookings using the application.
 
 User can search for event using keyword.
+
+Email Verification of user.
