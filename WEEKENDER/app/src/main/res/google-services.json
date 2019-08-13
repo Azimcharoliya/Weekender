@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513032278162",
+    "firebase_url": "https://weekender-a2c80.firebaseio.com",
+    "project_id": "weekender-a2c80",
+    "storage_bucket": "weekender-a2c80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513032278162:android:cb26886773690f63",
+        "android_client_info": {
+          "package_name": "com.weekender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513032278162-9q4rhcu3prqgi30nskol8fen11tp4kqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weekender",
+            "certificate_hash": "0d0dc195ca2323e0e3ba8bd35c3fb9586f86a531"
+          }
+        },
+        {
+          "client_id": "513032278162-fuku6fe5iru2hd5p94c970557d3uddja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvxBiJMqT5ReMnm1SZw5mSi5E80G7XZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513032278162-fuku6fe5iru2hd5p94c970557d3uddja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

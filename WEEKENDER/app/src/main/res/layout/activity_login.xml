@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        tools:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="40dp"
+        android:text="Email id"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="loginuser"
+        android:text="login"
+        android:background="#6384f1"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/mailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/password"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_below="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Password"
+        android:typeface="serif"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mailid"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/password"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/loginbutton"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="forgot_password"
+        android:textSize="16sp"
+        tools:text="Forgot Password?" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_below="@+id/forgotpassword"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:onClick="swit"
+        android:text="Not a user yet? Sign up"
+        tools:text="Not a user yet? Sign up"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:layout_below="@+id/signup"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:onClick="skip"
+        android:text="Skip" />
+
+</RelativeLayout>

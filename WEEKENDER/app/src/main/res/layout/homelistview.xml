@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <Button
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:text="More"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <HorizontalScrollView
+        android:id="@+id/catscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:src="@mipmap/ic_launcher"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:layout_toEndOf="@+id/image1"
+            android:src="@mipmap/ic_launcher"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:layout_toEndOf="@+id/image2"
+            android:src="@mipmap/ic_launcher"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:layout_toEndOf="@+id/image3"
+            android:src="@mipmap/ic_launcher"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:layout_toEndOf="@+id/image4"
+            android:src="@mipmap/ic_launcher"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:layout_toEndOf="@+id/image5"
+            android:src="@mipmap/ic_launcher"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:focusable="false"
+            android:clickable="true"
+            />
+
+    </RelativeLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

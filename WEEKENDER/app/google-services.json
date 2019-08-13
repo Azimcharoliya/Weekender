@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "666155974275",
+    "firebase_url": "https://weekender-8a7de.firebaseio.com",
+    "project_id": "weekender-8a7de",
+    "storage_bucket": "weekender-8a7de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666155974275:android:cb26886773690f63",
+        "android_client_info": {
+          "package_name": "com.weekender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666155974275-59ajdbnvo9fga8onh0s85fbr30o8c20p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weekender",
+            "certificate_hash": "e17318d9d671ab6be4e0463c3a5d16e509244bf2"
+          }
+        },
+        {
+          "client_id": "666155974275-51vn5m1poic02tj5h9dkqtpj6vvd1f84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weekender",
+            "certificate_hash": "0d0dc195ca2323e0e3ba8bd35c3fb9586f86a531"
+          }
+        },
+        {
+          "client_id": "666155974275-vnsplek8196h668rrbq1g0mh8qbo8ear.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR6QQPnlLf4T5KbN9yz0FZwx2B8nd3WKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666155974275-vnsplek8196h668rrbq1g0mh8qbo8ear.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

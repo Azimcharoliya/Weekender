@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WEEKENDER</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="time">TIME</string>
+    <string name="place">PLACE</string>
+    <string name="abc">----ABC</string>
+    <string name="book">Book</string>
+    <string name="amount">AMOUNT</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="date">DATE</string>
+</resources>

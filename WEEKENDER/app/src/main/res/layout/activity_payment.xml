@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment"
+
+    android:padding="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            >
+
+            <TextView
+                android:id="@+id/paytm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="PayTM on : "
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/paytm"
+                android:paddingTop="10dp"
+                android:text="9730350449"
+                android:textSize="25dp"
+                android:textColor="#5ab8ea"/>
+
+            <TextView
+                android:id="@+id/upi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="UPI id : "
+                android:textSize="25dp"
+                android:layout_below="@+id/paytm"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/upi"
+                android:paddingTop="10dp"
+                android:text="9730350449@ybl"
+                android:textSize="25dp"
+                android:layout_below="@+id/paytm"
+                android:textColor="#5ab8ea"/>
+
+            <TextView
+                android:id="@+id/banktransfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Bank Transfer Details"
+                android:textSize="25dp"
+                android:layout_below="@+id/upi"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/acno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Number : "
+                android:textSize="20dp"
+                android:layout_below="@+id/banktransfer"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32818922271"
+                android:textSize="20dp"
+                android:layout_toRightOf="@+id/acno"
+                android:layout_below="@+id/banktransfer"
+                android:textColor="#5ab8ea"/>
+
+            <TextView
+                android:id="@+id/acname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account name : "
+                android:textSize="20dp"
+                android:layout_below="@+id/acno"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/acname"
+                android:layout_below="@+id/acno"
+                android:text="Mohnish Bhatewara"
+                android:textSize="20dp"
+                android:textColor="#5ab8ea"/>
+
+            <TextView
+                android:id="@+id/ifsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IFSC : "
+                android:textSize="20dp"
+                android:layout_below="@+id/acname"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ifsc"
+                android:layout_below="@+id/acname"
+                android:text="SBIN0030456"
+                android:textSize="20dp"
+                android:textColor="#5ab8ea"/>
+
+            <TextView
+                android:id="@+id/bb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank and branch : "
+                android:textSize="20dp"
+                android:layout_below="@+id/ifsc"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bb"
+                android:layout_below="@+id/ifsc"
+                android:text="SBI, Kothrud."
+                android:textSize="20dp"
+                android:textColor="#5ab8ea"/>
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bb"
+                android:layout_toRightOf="@id/amt"
+                android:hint="Qty"
+                android:padding="10dp"
+                android:textSize="25dp"
+                android:textColor="#5ab8ea"/>
+
+            <TextView
+                android:id="@+id/amt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:layout_below="@+id/bb"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bb"
+                android:layout_toRightOf="@+id/quantity"
+                android:text="Total"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amt"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:text="Please make payment of the above mentioned amount and only then request for verification of payment for hassle free confirmations."
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/verf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Request verification of payment"
+        android:background="#6384f1"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+</RelativeLayout>

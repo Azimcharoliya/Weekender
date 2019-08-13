@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/specifics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        android:textAlignment="textStart"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/book"
+        android:background="#6384f1"
+        />
+
+    <ScrollView
+        android:id="@+id/scrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/book"
+        android:layout_below="@+id/specifics"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            >
+
+            <ImageView
+                android:id="@+id/simg"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageButton
+                android:id="@+id/bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/simg"
+                android:layout_marginEnd="20dp"
+                android:background="#000000"
+                android:src="@drawable/bookmark_initial"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/simg"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amount"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/place"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/time"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                android:textAlignment="textEnd"
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
