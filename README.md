@@ -11,15 +11,21 @@ User can search for events using keywords.
 
 ## Scope of project :
 To provide way of means to the masses for booking/reserving seats/passes for various shows and events happening all around in the city.
+
 Giving various organizations a platform to showcase their events and thereby increase their revenue as well as create a name for themselves within the masses thereby gaining popularity as well.
 
 ## Technology/Framework used :
 Android Studio
+
 Java
+
 Firebase
 
 ## Features :
 Category wise display of events.
+
 User can bookmark events.
+
 User can do bookings using the application.
+
 User can search for event using keyword.
